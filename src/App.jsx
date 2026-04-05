@@ -8,7 +8,7 @@ import Requests from "./components/Requests"
 import Premium from "./components/Premium"
 import Chat from "./components/Chat"
 import { Provider } from "react-redux"
-import { appStore } from "./utils/Appstore"
+import { appStore } from "./utils/appStore"
 
 
 
