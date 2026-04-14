@@ -10,6 +10,8 @@ import PrivacyPolicy from "./components/PrivacyPolicy"
 import Terms from "./components/Terms";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import RefundPolicy from "./components/RefundPolicy";
+
 import Chat from "./components/Chat"
 
 import { Provider } from "react-redux"
@@ -43,7 +45,7 @@ function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-
+        <Route path="/refund-policy" element={<RefundPolicy />} />
 
       </Route>
 

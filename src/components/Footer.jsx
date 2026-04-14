@@ -21,10 +21,11 @@ const Footer = () => {
   <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
 
     <Link to="/privacy-policy">Privacy Policy</Link>
-    <Link to="/terms">Terms</Link>
-    <Link to="/about">About</Link>
-    <Link to="/contact">Contact</Link>
-    
+    <Link to="/terms">Terms & Conditions</Link>
+    <Link to="/refund-policy">Refund Policy</Link>
+    <Link to="/about">About Us</Link>
+    <Link to="/contact">Contact Us</Link>
+
     <a>
       <svg
         xmlns="http://www.w3.org/2000/svg"

@@ -6,15 +6,21 @@ const Terms = () => {
       <h1 className="text-2xl font-bold mb-4">Terms & Conditions</h1>
 
       <p className="mb-4">
-        By using DevTinder, you agree to use the platform responsibly.
+        By accessing and using DevTinder, you agree to comply with our terms and policies.
       </p>
 
       <p className="mb-4">
-        Premium features are non-refundable unless required by law.
+        All payments made for premium features or subscriptions are subject to our Refund Policy. 
+        Please review the Refund Policy for eligibility, timelines, and conditions.
       </p>
-
       <p>
-        We reserve the right to suspend accounts for misuse or violations.
+        We reserve the right to suspend or terminate accounts that violate our terms, engage in fraudulent activity, or misuse the platform.
+      </p>
+      <p>
+        DevTinder is not responsible for any indirect or incidental damages arising from the use of the platform.
+       </p>
+      <p>
+        We may update these terms at any time without prior notice.
       </p>
     </div>
   );
