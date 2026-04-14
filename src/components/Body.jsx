@@ -32,7 +32,7 @@ const Body = () => {
       //   navigate("/login");
       // }
 
-      if (err.status === 401 && window.location.pathname !== "/privacy-policy" && window.location.pathname !== "/terms" && window.location.pathname !== "/about" && window.location.pathname !== "/contact") {
+      if (err.status === 401 && window.location.pathname !== "/privacy-policy" && window.location.pathname !== "/terms" && window.location.pathname !== "/about" && window.location.pathname !== "/contact" && window.location.pathname !== "/refund-policy") {
         navigate("/login");
       }
 
