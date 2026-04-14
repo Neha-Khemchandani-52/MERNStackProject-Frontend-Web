@@ -28,9 +28,14 @@ const Body = () => {
       dispatch(addUser(res?.data));
       
     } catch (err) {
-      if (err.status === 401) {
+      // if (err.status === 401) {
+      //   navigate("/login");
+      // }
+
+      if (err.status === 401 && window.location.pathname !== "/privacy-policy" && window.location.pathname !== "/terms" && window.location.pathname !== "/about" && window.location.pathname !== "/contact") {
         navigate("/login");
       }
+
       console.error(err);
     }
   };

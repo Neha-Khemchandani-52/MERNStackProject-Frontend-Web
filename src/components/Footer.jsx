@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,6 +19,12 @@ const Footer = () => {
     <p>Copyright © {new Date().getFullYear()} - All right reserved</p>
   </aside>
   <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+
+    <Link to="/privacy-policy">Privacy Policy</Link>
+    <Link to="/terms">Terms</Link>
+    <Link to="/about">About</Link>
+    <Link to="/contact">Contact</Link>
+    
     <a>
       <svg
         xmlns="http://www.w3.org/2000/svg"
